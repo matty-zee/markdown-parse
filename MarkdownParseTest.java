@@ -72,7 +72,7 @@ public class MarkdownParseTest {
     @Test
     public void testFile9() throws IOException {
         String contents= Files.readString(Path.of("./testFail.md"));
-        List<String> expect = List.of("link(withparens).com");
+        List<String> expect = List.of();
         assertEquals(MarkdownParse.getLinks(contents), expect);
     }
 }
