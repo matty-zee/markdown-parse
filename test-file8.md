@@ -1,2 +1,1 @@
-[](a link on the first line)
-[
+[a link!](aaa(bbb)aaa)
