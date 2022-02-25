@@ -71,7 +71,6 @@ public class MarkdownParseTest {
         List<String> expect = List.of();
         assertEquals(MarkdownParse.getLinks(contents), expect);
     }
-}
 
     @Test
     public void testSnippet1() throws IOException {
@@ -94,3 +93,5 @@ public class MarkdownParseTest {
         assertEquals(MarkdownParse.getLinks(contents), expect);
     }
 }
+
+    
